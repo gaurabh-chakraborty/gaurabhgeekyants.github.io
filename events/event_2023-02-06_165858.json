@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_165858",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          247,
+          1492
+        ],
+        [
+          649,
+          1563
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sign In with Google",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 43,
+      "size": "402*71",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Sign In with Google[enabled,,]",
+      "view_str": "41fdc008950867672a40c9f561ee9a86",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "stop_state": "aaf87fa785e772a1ff405fa96175a07c",
+  "event_str": "TouchEvent(state=6ce557abd0aa182926dd7c86ad270bc9, view=41fdc008950867672a40c9f561ee9a86(MainActivity/TextView-Sign In wi))"
+}

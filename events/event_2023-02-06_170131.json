@@ -1,0 +1,59 @@
+{
+  "tag": "2023-02-06_170131",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 9,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        37,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          53,
+          221
+        ],
+        [
+          1028,
+          487
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 36,
+      "size": "975*266",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "fb80bf7488515101a08df7b3a77c349d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    }
+  },
+  "start_state": "2f8bf774bbbc3a2f18577e2f64920520",
+  "stop_state": "ecdebae09b8a142c6380b0b5535ab13c",
+  "event_str": "TouchEvent(state=2f8bf774bbbc3a2f18577e2f64920520, view=fb80bf7488515101a08df7b3a77c349d(MainActivity/ViewGroup-))"
+}

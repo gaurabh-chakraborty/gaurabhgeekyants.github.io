@@ -1,0 +1,156 @@
+Activity Resolver Table:
+  Schemes:
+      com.auth.blobitmobile:
+        59b5db6 com.auth.blobitmobile/.MainActivity filter 210224
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.auth.blobitmobile"
+          Scheme: "exp+blobit-mobile"
+      exp+blobit-mobile:
+        59b5db6 com.auth.blobitmobile/.MainActivity filter 210224
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.auth.blobitmobile"
+          Scheme: "exp+blobit-mobile"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        59b5db6 com.auth.blobitmobile/.MainActivity filter a788ab7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Registered ContentProviders:
+  com.auth.blobitmobile/androidx.startup.InitializationProvider:
+    Provider{a9ea9f3 com.auth.blobitmobile/androidx.startup.InitializationProvider}
+  com.auth.blobitmobile/expo.modules.sharing.SharingFileProvider:
+    Provider{24896b0 com.auth.blobitmobile/expo.modules.sharing.SharingFileProvider}
+  com.auth.blobitmobile/expo.modules.filesystem.FileSystemFileProvider:
+    Provider{2f1f929 com.auth.blobitmobile/expo.modules.filesystem.FileSystemFileProvider}
+
+ContentProvider Authorities:
+  [com.auth.blobitmobile.androidx-startup]:
+    Provider{a9ea9f3 com.auth.blobitmobile/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{9a7c4ae com.auth.blobitmobile}
+  [com.auth.blobitmobile.FileSystemFileProvider]:
+    Provider{2f1f929 com.auth.blobitmobile/expo.modules.filesystem.FileSystemFileProvider}
+      applicationInfo=ApplicationInfo{6eff24f com.auth.blobitmobile}
+  [com.auth.blobitmobile.SharingFileProvider]:
+    Provider{24896b0 com.auth.blobitmobile/expo.modules.sharing.SharingFileProvider}
+      applicationInfo=ApplicationInfo{8186ddc com.auth.blobitmobile}
+
+Key Set Manager:
+  [com.auth.blobitmobile]
+      Signing KeySets: 42
+
+Packages:
+  Package [com.auth.blobitmobile] (dd9c9c0):
+    userId=10169
+    pkg=Package{807fee5 com.auth.blobitmobile}
+    codePath=/data/app/~~f8IPlJeeos6pcumv4cpwCw==/com.auth.blobitmobile-BnWTf4su2MRdxftTx6PoJA==
+    resourcePath=/data/app/~~f8IPlJeeos6pcumv4cpwCw==/com.auth.blobitmobile-BnWTf4su2MRdxftTx6PoJA==
+    legacyNativeLibraryDir=/data/app/~~f8IPlJeeos6pcumv4cpwCw==/com.auth.blobitmobile-BnWTf4su2MRdxftTx6PoJA==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=21 targetSdk=31
+    versionName=1.0.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{807fee5 com.auth.blobitmobile}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.intent.action.OPEN_DOCUMENT_TREE }, Intent { act=android.intent.action.SEND dat=content://*/* typ=*/* }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    dataDir=/data/user/0/com.auth.blobitmobile
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-02-06 16:51:51
+    firstInstallTime=2023-02-06 16:51:51
+    lastUpdateTime=2023-02-06 16:51:51
+    signatures=PackageSignatures{52f7dba version:2, signatures:[5ec33920], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.RECORD_AUDIO
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.VIBRATE
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_NETWORK_STATE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: ceDataInode=148018 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.auth.blobitmobile:
+      com.google.android.documentsui
+      com.android.bips
+      com.google.android.setupwizard
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.google.android.apps.docs
+      com.google.android.youtube
+      com.google.android.apps.photos
+      com.google.android.gm
+      com.google.android.apps.messaging
+      com.google.android.apps.maps
+      com.android.chrome
+      host.exp.exponent
+      com.twitter.android
+  queryable via interaction:
+    User 0:
+      [com.android.emulator.multidisplay,com.android.settings,com.android.dynsystem,com.android.location.fused,com.android.wallpaperbackup,com.android.localtransport,com.android.keychain,com.android.providers.settings,android,com.android.server.telecom,com.android.inputdevices]:
+        com.auth.blobitmobile
+      [com.google.android.gsf,com.google.android.gms]:
+        com.auth.blobitmobile
+      com.google.android.inputmethod.latin:
+        com.auth.blobitmobile
+      io.github.ylimit.droidbotapp:
+        com.auth.blobitmobile
+
+Package Changes:
+  Sequence number=6
+  User 0:
+    seq=2, package=com.google.android.gms
+    seq=3, package=com.mighty.web
+    seq=4, package=com.auth.blobitmobile
+    seq=5, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [com.auth.blobitmobile]
+    path: /data/app/~~f8IPlJeeos6pcumv4cpwCw==/com.auth.blobitmobile-BnWTf4su2MRdxftTx6PoJA==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.auth.blobitmobile]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

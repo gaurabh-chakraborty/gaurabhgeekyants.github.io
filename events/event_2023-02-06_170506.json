@@ -1,0 +1,51 @@
+{
+  "tag": "2023-02-06_170506",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        85
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          398,
+          1689
+        ],
+        [
+          682,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 84,
+      "size": "284*105",
+      "signature": "[class]android.widget.Button[resource_id]None[text]None[enabled,,]",
+      "view_str": "dd26c596224647995f3a70871aabaabd",
+      "content_free_signature": "[class]android.widget.Button[resource_id]None"
+    }
+  },
+  "start_state": "7a49f0fe262f4b5cbae67395027cf67c",
+  "stop_state": "3d14c50136a2c4a1b533d4169402b3da",
+  "event_str": "TouchEvent(state=7a49f0fe262f4b5cbae67395027cf67c, view=dd26c596224647995f3a70871aabaabd(MainActivity/Button-))"
+}

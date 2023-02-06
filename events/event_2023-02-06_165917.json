@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_165917",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          510
+        ],
+        [
+          954,
+          605
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\"HelloWorld\"",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "828*95",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]\"HelloWorld\"[enabled,,]",
+      "view_str": "43bfe364ee027e588d35b013f32e7feb",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    }
+  },
+  "start_state": "68fc90f6c2711515db9425ce5b47a2bf",
+  "stop_state": "68fc90f6c2711515db9425ce5b47a2bf",
+  "event_str": "TouchEvent(state=68fc90f6c2711515db9425ce5b47a2bf, view=43bfe364ee027e588d35b013f32e7feb(MainActivity/EditText-\"HelloWorl))"
+}

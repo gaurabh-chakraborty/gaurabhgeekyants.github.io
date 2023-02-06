@@ -1,0 +1,11 @@
+{
+  "tag": "2023-02-06_170011",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "intent": "am start com.auth.blobitmobile/com.auth.blobitmobile.MainActivity"
+  },
+  "start_state": "6d3a97f88b965af49835a850f1c20cf4",
+  "stop_state": "c262ce8ff29af08a1613848f8498a340",
+  "event_str": "IntentEvent(intent='am start com.auth.blobitmobile/com.auth.blobitmobile.MainActivity')"
+}

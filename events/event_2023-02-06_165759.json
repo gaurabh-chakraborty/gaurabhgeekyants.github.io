@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_165759",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          415,
+          88
+        ],
+        [
+          687,
+          144
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Mon Feb 06 2023",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 23,
+      "size": "272*56",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Mon Feb 06 2023[enabled,,]",
+      "view_str": "51cb6260b979cddf4a5ef4079b8b95e0",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "058828ce0de67419c0bc1d0c3e856fdf",
+  "stop_state": "2e8806342628b6c08588d57742fc528b",
+  "event_str": "TouchEvent(state=058828ce0de67419c0bc1d0c3e856fdf, view=51cb6260b979cddf4a5ef4079b8b95e0(MainActivity/TextView-Mon Feb 06))"
+}

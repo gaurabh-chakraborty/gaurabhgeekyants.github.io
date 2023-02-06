@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170227",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          294
+        ],
+        [
+          954,
+          483
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Tell us how is your practice experience on Blobit so far and if there\u2019s anything more you would like to have?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 38,
+      "size": "828*189",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "e46ba1a00928cede2da4423d0130068e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "b08f01d1621fd4a99a1a4138933f0042",
+  "stop_state": "b08f01d1621fd4a99a1a4138933f0042",
+  "event_str": "TouchEvent(state=b08f01d1621fd4a99a1a4138933f0042, view=e46ba1a00928cede2da4423d0130068e(MainActivity/TextView-Tell us ho))"
+}

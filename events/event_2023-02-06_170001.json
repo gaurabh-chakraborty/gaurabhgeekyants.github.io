@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170001",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          510
+        ],
+        [
+          954,
+          605
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "a@gmail.com",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "828*95",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]a@gmail.com[enabled,,]",
+      "view_str": "f6f774a1e1cf3a143a0dd638ef346dd3",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    }
+  },
+  "start_state": "03379611bf0da3f220b111c4d5d95a6c",
+  "stop_state": "03379611bf0da3f220b111c4d5d95a6c",
+  "event_str": "TouchEvent(state=03379611bf0da3f220b111c4d5d95a6c, view=f6f774a1e1cf3a143a0dd638ef346dd3(MainActivity/EditText-a@gmail.co))"
+}

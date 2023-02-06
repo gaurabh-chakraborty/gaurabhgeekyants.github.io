@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170441",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          452,
+          557
+        ],
+        [
+          557,
+          662
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\uf190",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "105*105",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\uf190[enabled,,]",
+      "view_str": "53fab6f15723695e4d82eaf1b592a637",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "b08f01d1621fd4a99a1a4138933f0042",
+  "stop_state": "fe05a7e96dfdc1b69fa341fb6d3391bf",
+  "event_str": "TouchEvent(state=b08f01d1621fd4a99a1a4138933f0042, view=53fab6f15723695e4d82eaf1b592a637(MainActivity/TextView-\uf190))"
+}

@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170013",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1731",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6fa9b14e8aa5f5a5a8ba2f54a1ddac83",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    }
+  },
+  "start_state": "c262ce8ff29af08a1613848f8498a340",
+  "stop_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "event_str": "TouchEvent(state=c262ce8ff29af08a1613848f8498a340, view=6fa9b14e8aa5f5a5a8ba2f54a1ddac83(MainActivity/FrameLayout-))"
+}

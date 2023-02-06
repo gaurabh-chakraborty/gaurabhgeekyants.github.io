@@ -1,0 +1,50 @@
+{
+  "tag": "2023-02-06_165732",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          126,
+          510
+        ],
+        [
+          954,
+          595
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "abc@xyz.com",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "828*85",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]abc@xyz.com[enabled,,]",
+      "view_str": "d58268ea263b4245e4fd5d852eb273a0",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    },
+    "text": "HelloWorld"
+  },
+  "start_state": "058828ce0de67419c0bc1d0c3e856fdf",
+  "stop_state": "68fc90f6c2711515db9425ce5b47a2bf",
+  "event_str": "SetTextEvent(state=058828ce0de67419c0bc1d0c3e856fdf, view=d58268ea263b4245e4fd5d852eb273a0(MainActivity/EditText-abc@xyz.co), text=HelloWorld)"
+}

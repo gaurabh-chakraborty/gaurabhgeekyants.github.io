@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170056",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": true,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          756
+        ],
+        [
+          881,
+          841
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "755*85",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022[enabled,,]",
+      "view_str": "ba76f0909222e962842bb35df63c8b44",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    }
+  },
+  "start_state": "fdd87434afdbf7f7264678a1f3abeb31",
+  "stop_state": "fdd87434afdbf7f7264678a1f3abeb31",
+  "event_str": "TouchEvent(state=fdd87434afdbf7f7264678a1f3abeb31, view=ba76f0909222e962842bb35df63c8b44(MainActivity/EditText-\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022))"
+}

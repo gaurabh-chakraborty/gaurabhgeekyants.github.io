@@ -1,0 +1,50 @@
+{
+  "tag": "2023-02-06_170110",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          126,
+          510
+        ],
+        [
+          954,
+          605
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Qq@12234asdf.vpom",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "828*95",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]Qq@12234asdf.vpom[enabled,,]",
+      "view_str": "39706791081450501cc7c0c489ba2f7e",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    },
+    "text": "HelloWorld"
+  },
+  "start_state": "68e5011bb89f682305f80d23baf4a560",
+  "stop_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "event_str": "SetTextEvent(state=68e5011bb89f682305f80d23baf4a560, view=39706791081450501cc7c0c489ba2f7e(MainActivity/EditText-Qq@12234as), text=HelloWorld)"
+}

@@ -1,0 +1,50 @@
+{
+  "tag": "2023-02-06_165728",
+  "event": {
+    "event_type": "long_touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": true,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          746
+        ],
+        [
+          881,
+          831
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "755*85",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf[enabled,,]",
+      "view_str": "6c9c7bab847558b5ecf21a1402e1ec97",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    },
+    "duration": 2000
+  },
+  "start_state": "058828ce0de67419c0bc1d0c3e856fdf",
+  "stop_state": "058828ce0de67419c0bc1d0c3e856fdf",
+  "event_str": "LongTouchEvent(state=058828ce0de67419c0bc1d0c3e856fdf, view=6c9c7bab847558b5ecf21a1402e1ec97(MainActivity/EditText-\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf))"
+}

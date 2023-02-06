@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170535",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*1731",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "52aab367ed4333df5b588d8b60f1dd5b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    }
+  },
+  "start_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "stop_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "event_str": "TouchEvent(state=6ce557abd0aa182926dd7c86ad270bc9, view=52aab367ed4333df5b588d8b60f1dd5b(MainActivity/ImageView-))"
+}

@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170047",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          756
+        ],
+        [
+          881,
+          841
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Qq@12234asdf",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "755*85",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]Qq@12234asdf[enabled,,]",
+      "view_str": "57a2acc432e1fe4fad791f49db4fdc48",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    }
+  },
+  "start_state": "68e5011bb89f682305f80d23baf4a560",
+  "stop_state": "68e5011bb89f682305f80d23baf4a560",
+  "event_str": "TouchEvent(state=68e5011bb89f682305f80d23baf4a560, view=57a2acc432e1fe4fad791f49db4fdc48(MainActivity/EditText-Qq@12234as))"
+}

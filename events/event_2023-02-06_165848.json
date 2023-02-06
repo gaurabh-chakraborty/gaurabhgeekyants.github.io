@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_165848",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          445,
+          963
+        ],
+        [
+          635,
+          1074
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "blobit",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 25,
+      "size": "190*111",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]blobit[enabled,,]",
+      "view_str": "c2b850a6e148ebf2c0cb5f595d8b47dc",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "stop_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "event_str": "TouchEvent(state=6ce557abd0aa182926dd7c86ad270bc9, view=c2b850a6e148ebf2c0cb5f595d8b47dc(MainActivity/TextView-blobit))"
+}

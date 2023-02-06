@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_165851",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          247,
+          1337
+        ],
+        [
+          613,
+          1408
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sign in with Email",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 31,
+      "size": "366*71",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Sign in with Email[enabled,,]",
+      "view_str": "6c2fbce2ec48646b4c4a842ba9dc0f19",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "6ce557abd0aa182926dd7c86ad270bc9",
+  "stop_state": "058828ce0de67419c0bc1d0c3e856fdf",
+  "event_str": "TouchEvent(state=6ce557abd0aa182926dd7c86ad270bc9, view=6c2fbce2ec48646b4c4a842ba9dc0f19(MainActivity/TextView-Sign in wi))"
+}

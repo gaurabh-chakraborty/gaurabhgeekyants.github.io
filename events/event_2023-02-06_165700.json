@@ -1,0 +1,11 @@
+{
+  "tag": "2023-02-06_165700",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "stop_intent": "am force-stop com.auth.blobitmobile"
+  },
+  "start_state": "ac278f469657b7f3eb6974c48d4d9e37",
+  "stop_state": "49bb714f76b0b3707bdb7ee7409b2077",
+  "event_str": "KillAppEvent()"
+}

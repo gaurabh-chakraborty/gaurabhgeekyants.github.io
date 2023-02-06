@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-06_170328",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.auth.blobitmobile",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          131,
+          809
+        ],
+        [
+          949,
+          1135
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Write your experience in a few words here\u2026",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 56,
+      "temp_id": 57,
+      "size": "818*326",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]Write your experience in a few words here\u2026[enabled,,]",
+      "view_str": "def14e8fcc8808eeca01b266af0d4ff4",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    }
+  },
+  "start_state": "320cbb2a53f937d39cb244981a440fbe",
+  "stop_state": "320cbb2a53f937d39cb244981a440fbe",
+  "event_str": "TouchEvent(state=320cbb2a53f937d39cb244981a440fbe, view=def14e8fcc8808eeca01b266af0d4ff4(MainActivity/EditText-Write your))"
+}
