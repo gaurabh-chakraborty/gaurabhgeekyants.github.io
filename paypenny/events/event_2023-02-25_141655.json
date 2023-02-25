@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_141655",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          54,
+          202
+        ],
+        [
+          282,
+          373
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "228*171",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "b724d09053c562c4ea96e11fb1e4f22c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    }
+  },
+  "start_state": "3362e48ad4b33fa07130aae8793edf7a",
+  "stop_state": "0c6fc24d8bfbe4ba483cd890b435207b",
+  "event_str": "TouchEvent(state=3362e48ad4b33fa07130aae8793edf7a, view=b724d09053c562c4ea96e11fb1e4f22c(MainActivity/ImageView-))"
+}

@@ -1,0 +1,51 @@
+{
+  "tag": "2023-02-25_140843",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          417,
+          1575
+        ],
+        [
+          664,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 35,
+      "size": "247*219",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "1700f67cc8ddf943a05c8dda67af0796",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    }
+  },
+  "start_state": "3362e48ad4b33fa07130aae8793edf7a",
+  "stop_state": "1d33afee52b9743b0b27bc9c83cb3d05",
+  "event_str": "TouchEvent(state=3362e48ad4b33fa07130aae8793edf7a, view=1700f67cc8ddf943a05c8dda67af0796(MainActivity/ViewGroup-))"
+}

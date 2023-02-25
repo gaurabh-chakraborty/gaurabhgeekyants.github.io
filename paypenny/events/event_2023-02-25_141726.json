@@ -1,0 +1,11 @@
+{
+  "tag": "2023-02-25_141726",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "intent": "am start com.bhanguz.Paypenny/com.bhanguz.Paypenny.MainActivity"
+  },
+  "start_state": "844c5444f2aa0fab04ea884edc4949ed",
+  "stop_state": "26f0e392d47e2913d36f3d9351d212f0",
+  "event_str": "IntentEvent(intent='am start com.bhanguz.Paypenny/com.bhanguz.Paypenny.MainActivity')"
+}

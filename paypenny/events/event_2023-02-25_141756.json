@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_141756",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          54,
+          472
+        ],
+        [
+          1026,
+          550
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Log In / Sign Up",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 20,
+      "size": "972*78",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Log In / Sign Up[enabled,,]",
+      "view_str": "258a7325ccd40c69cc5d98294b080ee8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "3362e48ad4b33fa07130aae8793edf7a",
+  "stop_state": "3362e48ad4b33fa07130aae8793edf7a",
+  "event_str": "TouchEvent(state=3362e48ad4b33fa07130aae8793edf7a, view=258a7325ccd40c69cc5d98294b080ee8(MainActivity/TextView-Log In / S))"
+}

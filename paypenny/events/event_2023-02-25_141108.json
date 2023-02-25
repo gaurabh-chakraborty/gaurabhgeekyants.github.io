@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_141108",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          345,
+          621
+        ],
+        [
+          890,
+          757
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "111111111",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 21,
+      "temp_id": 27,
+      "size": "545*136",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]111111111[enabled,,]",
+      "view_str": "5a7b7c2f86f04c87d944fb3f1269b471",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    }
+  },
+  "start_state": "32bb568bd1ed3a6204fde9b05c03beb5",
+  "stop_state": "32bb568bd1ed3a6204fde9b05c03beb5",
+  "event_str": "TouchEvent(state=32bb568bd1ed3a6204fde9b05c03beb5, view=5a7b7c2f86f04c87d944fb3f1269b471(MainActivity/EditText-111111111))"
+}

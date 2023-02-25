@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_141103",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          807
+        ],
+        [
+          1010,
+          933
+        ]
+      ],
+      "resource_id": "android:id/aerr_app_info",
+      "checked": false,
+      "text": "App info",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "940*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/aerr_app_info[text]App info[enabled,,]",
+      "view_str": "023913780b2115f524f11cb8e619e25c",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/aerr_app_info"
+    }
+  },
+  "start_state": "901b0518f506f49d4bc63d7af2ca82a6",
+  "stop_state": "968fb787363c041d6fc0440f6c23d6de",
+  "event_str": "TouchEvent(state=901b0518f506f49d4bc63d7af2ca82a6, view=023913780b2115f524f11cb8e619e25c(MainActivity/Button-App info))"
+}

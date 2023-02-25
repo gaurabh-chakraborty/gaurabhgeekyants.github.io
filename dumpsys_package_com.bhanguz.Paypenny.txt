@@ -1,0 +1,295 @@
+Activity Resolver Table:
+  Schemes:
+      plaid:
+        55893e9 com.bhanguz.Paypenny/com.plaid.internal.LinkRedirectActivity filter 2fe286e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "plaid"
+          Authority: "redirect": -1
+      genericidp:
+        99ceb0f com.bhanguz.Paypenny/com.google.firebase.auth.internal.GenericIdpActivity filter 408d79c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "genericidp"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+      recaptcha:
+        81d85a5 com.bhanguz.Paypenny/com.google.firebase.auth.internal.RecaptchaActivity filter 5e85d7a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "recaptcha"
+          Authority: "firebase.auth": -1
+          Path: "PatternMatcher{LITERAL: /}"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        4a996b3 com.bhanguz.Paypenny/.MainActivity filter 991e470
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        80d2d07 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter bbe7e34
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        d85d721 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e0ed746
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        ac7c45d com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 1d121d2
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        8c592a3 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter bdf49a0
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        ac7c45d com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 1d121d2
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.google.android.c2dm.intent.RECEIVE:
+        6c7292b com.bhanguz.Paypenny/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver filter 399d188
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+        d08b31b com.bhanguz.Paypenny/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 528acb8
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        80d2d07 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter bbe7e34
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        8414959 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.RescheduleReceiver filter bfb891e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        8414959 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.RescheduleReceiver filter bfb891e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        8414959 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.RescheduleReceiver filter bfb891e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        d85d721 com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e0ed746
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        c342215 com.bhanguz.Paypenny/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 5d3192a
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        914b5ff com.bhanguz.Paypenny/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter f7f5fcc
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        541ca91 com.bhanguz.Paypenny/io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService filter 5e19df6
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        a77ecd com.bhanguz.Paypenny/com.google.firebase.messaging.FirebaseMessagingService filter f81a382
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.firebase.auth.api.gms.service.START:
+        17565f7 com.bhanguz.Paypenny/com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService filter 817dc64
+          Action: "com.google.firebase.auth.api.gms.service.START"
+          Category: "android.intent.category.DEFAULT"
+
+Registered ContentProviders:
+  com.bhanguz.Paypenny/androidx.core.content.FileProvider:
+    Provider{86332f0 com.bhanguz.Paypenny/androidx.core.content.FileProvider}
+  com.bhanguz.Paypenny/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{1620069 com.bhanguz.Paypenny/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.bhanguz.Paypenny/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider:
+    Provider{d105aee com.bhanguz.Paypenny/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider}
+  com.bhanguz.Paypenny/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{dbf6b8f com.bhanguz.Paypenny/com.google.firebase.provider.FirebaseInitProvider}
+  com.bhanguz.Paypenny/androidx.startup.InitializationProvider:
+    Provider{ce08e1c com.bhanguz.Paypenny/androidx.startup.InitializationProvider}
+  com.bhanguz.Paypenny/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{c913a25 com.bhanguz.Paypenny/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  com.bhanguz.Paypenny/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider:
+    Provider{72b37fa com.bhanguz.Paypenny/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider}
+
+ContentProvider Authorities:
+  [com.bhanguz.Paypenny.provider]:
+    Provider{86332f0 com.bhanguz.Paypenny/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{dd131ab com.bhanguz.Paypenny}
+  [com.bhanguz.Paypenny.firebaseinitprovider]:
+    Provider{dbf6b8f com.bhanguz.Paypenny/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{4767008 com.bhanguz.Paypenny}
+  [com.bhanguz.Paypenny.reactnativefirebaseappinitprovider]:
+    Provider{d105aee com.bhanguz.Paypenny/io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider}
+      applicationInfo=ApplicationInfo{ac053a1 com.bhanguz.Paypenny}
+  [com.bhanguz.Paypenny.reactnativefirebasecrashlyticsinitprovider]:
+    Provider{72b37fa com.bhanguz.Paypenny/io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider}
+      applicationInfo=ApplicationInfo{ce4d9c6 com.bhanguz.Paypenny}
+  [com.bhanguz.Paypenny.fileprovider]:
+    Provider{c913a25 com.bhanguz.Paypenny/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{cef3d87 com.bhanguz.Paypenny}
+  [com.bhanguz.Paypenny.mlkitinitprovider]:
+    Provider{1620069 com.bhanguz.Paypenny/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{40684b4 com.bhanguz.Paypenny}
+  [com.bhanguz.Paypenny.androidx-startup]:
+    Provider{ce08e1c com.bhanguz.Paypenny/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{a6d88dd com.bhanguz.Paypenny}
+
+Key Set Manager:
+  [com.bhanguz.Paypenny]
+      Signing KeySets: 49
+
+Packages:
+  Package [com.bhanguz.Paypenny] (844cc52):
+    userId=10181
+    pkg=Package{4f82b23 com.bhanguz.Paypenny}
+    codePath=/data/app/~~jwx9A1ra8SKCPtRVn3NoDA==/com.bhanguz.Paypenny-wxYH7GvvgoWml7H8rD66Jw==
+    resourcePath=/data/app/~~jwx9A1ra8SKCPtRVn3NoDA==/com.bhanguz.Paypenny-wxYH7GvvgoWml7H8rD66Jw==
+    legacyNativeLibraryDir=/data/app/~~jwx9A1ra8SKCPtRVn3NoDA==/com.bhanguz.Paypenny-wxYH7GvvgoWml7H8rD66Jw==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=47 minSdk=23 targetSdk=31
+    versionName=2.1.0.20
+    splits=[base, config.arm64_v8a, config.bn, config.en, config.gu, config.hi, config.kn, config.mr, config.ta, config.te, config.xxhdpi]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{4f82b23 com.bhanguz.Paypenny}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }]
+    dataDir=/data/user/0/com.bhanguz.Paypenny
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-02-25 12:33:00
+    firstInstallTime=2023-02-25 12:33:00
+    lastUpdateTime=2023-02-25 12:33:00
+    installerPackageName=com.android.vending
+    signatures=PackageSignatures{ae13820 version:3, signatures:[81d2e], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.USE_BIOMETRIC
+      android.permission.CAMERA
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.USE_FINGERPRINT
+      android.permission.WRITE_CONTACTS
+      android.permission.READ_CONTACTS
+      android.permission.READ_PROFILE
+      android.permission.POST_NOTIFICATIONS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+      com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.VIBRATE
+      android.permission.NFC
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.NFC: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=140670 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      lastDisabledCaller: com.android.vending
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      enabledComponents:
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.apps.messaging:
+      com.bhanguz.Paypenny
+    com.bhanguz.Paypenny:
+      com.android.camera2
+  queryable via interaction:
+    User 0:
+      [com.android.dynsystem,com.android.server.telecom,android,com.android.inputdevices,com.android.localtransport,com.android.emulator.multidisplay,com.android.keychain,com.android.location.fused,com.android.settings,com.android.providers.settings,com.android.wallpaperbackup]:
+        com.bhanguz.Paypenny
+      com.android.vending:
+        com.bhanguz.Paypenny
+      [com.google.android.gms,com.google.android.gsf]:
+        com.bhanguz.Paypenny
+      com.google.android.inputmethod.latin:
+        com.bhanguz.Paypenny
+
+Package Changes:
+  Sequence number=124
+  User 0:
+    seq=0, package=com.android.traceur
+    seq=7, package=com.android.vending
+    seq=15, package=com.shade6.conet
+    seq=16, package=com.twitter.android
+    seq=17, package=com.google.android.apps.youtube.music
+    seq=18, package=host.exp.exponent
+    seq=30, package=com.google.android.trichromelibrary_548106534
+    seq=31, package=com.google.android.webview
+    seq=35, package=com.google.android.tts
+    seq=36, package=com.google.android.apps.wallpaper
+    seq=45, package=com.google.android.apps.tachyon
+    seq=53, package=com.google.android.apps.messaging
+    seq=68, package=com.google.android.apps.photos
+    seq=73, package=com.google.android.gms
+    seq=74, package=com.google.android.googlequicksearchbox
+    seq=75, package=com.google.android.deskclock
+    seq=96, package=com.google.android.gm
+    seq=99, package=com.google.android.calendar
+    seq=101, package=com.android.chrome
+    seq=102, package=com.google.ar.core
+    seq=103, package=com.google.android.inputmethod.latin
+    seq=106, package=com.google.android.apps.wellbeing
+    seq=107, package=com.google.android.apps.maps
+    seq=108, package=com.google.android.youtube
+    seq=117, package=com.google.android.apps.docs
+    seq=120, package=com.bhanguz.Paypenny
+    seq=122, package=com.google.android.ims
+    seq=123, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [com.bhanguz.Paypenny]
+    path: /data/app/~~jwx9A1ra8SKCPtRVn3NoDA==/com.bhanguz.Paypenny-wxYH7GvvgoWml7H8rD66Jw==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.bhanguz.Paypenny]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

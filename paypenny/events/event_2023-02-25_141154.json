@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_141154",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          345,
+          621
+        ],
+        [
+          890,
+          757
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Mobile Number",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 21,
+      "temp_id": 27,
+      "size": "545*136",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]Mobile Number[enabled,,]",
+      "view_str": "490fca3dd99d420921990b67a9f60ee0",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    }
+  },
+  "start_state": "73ca28d82904e055390245e4864fe929",
+  "stop_state": "3e9a8a051de279a4849d7d579a44f2a0",
+  "event_str": "TouchEvent(state=73ca28d82904e055390245e4864fe929, view=490fca3dd99d420921990b67a9f60ee0(MainActivity/EditText-Mobile Num))"
+}

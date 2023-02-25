@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_141548",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          998
+        ],
+        [
+          978,
+          1124
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "OK",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "168*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]OK[enabled,,]",
+      "view_str": "e48634c12321e6f35ccd19d3930c0feb",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  },
+  "start_state": "d407fe172326de67d3e9817e09a91357",
+  "stop_state": "d9f8ce7d6a72b7eb14ea6e1e9d701ae3",
+  "event_str": "TouchEvent(state=d407fe172326de67d3e9817e09a91357, view=e48634c12321e6f35ccd19d3930c0feb(MainActivity/Button-OK))"
+}

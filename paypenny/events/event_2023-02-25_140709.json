@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_140709",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          68,
+          963
+        ],
+        [
+          449,
+          1037
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Select a Country",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "381*74",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Select a Country[enabled,,]",
+      "view_str": "100e2aa69db92d963b55fa67b9513755",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "afe4191f51d2040f0927699064a89c07",
+  "stop_state": "afe4191f51d2040f0927699064a89c07",
+  "event_str": "TouchEvent(state=afe4191f51d2040f0927699064a89c07, view=100e2aa69db92d963b55fa67b9513755(MainActivity/TextView-Select a C))"
+}

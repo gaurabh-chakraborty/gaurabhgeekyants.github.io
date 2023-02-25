@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_141611",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          404
+        ],
+        [
+          249,
+          480
+        ]
+      ],
+      "resource_id": "recaptcha-anchor",
+      "checked": false,
+      "text": "I'm not a robot",
+      "class": "android.widget.CheckBox",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "76*76",
+      "signature": "[class]android.widget.CheckBox[resource_id]recaptcha-anchor[text]I'm not a robot[enabled,,]",
+      "view_str": "7cdde10005b1d0e3cb17fe8e1a036121",
+      "content_free_signature": "[class]android.widget.CheckBox[resource_id]recaptcha-anchor"
+    }
+  },
+  "start_state": "f9398a34f28bca3f3298c2cee64e0e19",
+  "stop_state": "f9398a34f28bca3f3298c2cee64e0e19",
+  "event_str": "TouchEvent(state=f9398a34f28bca3f3298c2cee64e0e19, view=7cdde10005b1d0e3cb17fe8e1a036121(MainActivity/CheckBox-I'm not a ))"
+}

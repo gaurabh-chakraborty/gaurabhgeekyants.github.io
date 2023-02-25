@@ -1,0 +1,52 @@
+{
+  "tag": "2023-02-25_140649",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          57,
+          929
+        ],
+        [
+          1022,
+          1740
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "965*811",
+      "signature": "[class]android.widget.ScrollView[resource_id]None[text]None[enabled,,]",
+      "view_str": "ed37ef6aa7d029560306ab03c08cad9e",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]None"
+    },
+    "direction": "DOWN"
+  },
+  "start_state": "afe4191f51d2040f0927699064a89c07",
+  "stop_state": "afe4191f51d2040f0927699064a89c07",
+  "event_str": "ScrollEvent(state=afe4191f51d2040f0927699064a89c07, view=ed37ef6aa7d029560306ab03c08cad9e(MainActivity/ScrollView-), direction=DOWN)"
+}

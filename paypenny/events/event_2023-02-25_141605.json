@@ -1,0 +1,53 @@
+{
+  "tag": "2023-02-25_141605",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          141,
+          343
+        ],
+        [
+          942,
+          553
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "reCAPTCHA",
+      "class": "android.view.View",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "801*210",
+      "signature": "[class]android.view.View[resource_id]None[text]reCAPTCHA[enabled,,]",
+      "view_str": "d58c277fd767b81c7fb940bee34f0fe2",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    "direction": "DOWN"
+  },
+  "start_state": "2f9e275bef870f0703cb3da716933e30",
+  "stop_state": "f9398a34f28bca3f3298c2cee64e0e19",
+  "event_str": "ScrollEvent(state=2f9e275bef870f0703cb3da716933e30, view=d58c277fd767b81c7fb940bee34f0fe2(MainActivity/View-reCAPTCHA), direction=DOWN)"
+}

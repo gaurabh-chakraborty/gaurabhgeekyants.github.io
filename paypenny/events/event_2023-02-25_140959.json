@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_140959",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          171,
+          1485
+        ],
+        [
+          308,
+          1539
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Canada",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 29,
+      "size": "137*54",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Canada[enabled,,]",
+      "view_str": "d2a9e1f95b3d3c64acdf3c9850d619f0",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "afe4191f51d2040f0927699064a89c07",
+  "stop_state": "e4e5bf287bdde4a6b1bfb3fb146e87c6",
+  "event_str": "TouchEvent(state=afe4191f51d2040f0927699064a89c07, view=d2a9e1f95b3d3c64acdf3c9850d619f0(MainActivity/TextView-Canada))"
+}

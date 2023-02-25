@@ -1,0 +1,49 @@
+{
+  "tag": "2023-02-25_140937",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          171,
+          1233
+        ],
+        [
+          316,
+          1287
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Belgium",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "145*54",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Belgium[enabled,,]",
+      "view_str": "a308caa9ba2536b5cff2427053a5a6f5",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "afe4191f51d2040f0927699064a89c07",
+  "stop_state": "afe4191f51d2040f0927699064a89c07",
+  "event_str": "TouchEvent(state=afe4191f51d2040f0927699064a89c07, view=a308caa9ba2536b5cff2427053a5a6f5(MainActivity/TextView-Belgium))"
+}

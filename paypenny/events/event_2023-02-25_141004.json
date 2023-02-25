@@ -1,0 +1,52 @@
+{
+  "tag": "2023-02-25_141004",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1084,
+          1796
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.webkit.WebView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1084*1733",
+      "signature": "[class]android.webkit.WebView[resource_id]None[text][enabled,,]",
+      "view_str": "47bfffdb23f2e8f533bfd9f77675d1e2",
+      "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+    },
+    "direction": "DOWN"
+  },
+  "start_state": "e0d2833eaf2d73609bbc9904db96f933",
+  "stop_state": "c599f87f2d46fb92e7a8c684fdfc90df",
+  "event_str": "ScrollEvent(state=e0d2833eaf2d73609bbc9904db96f933, view=47bfffdb23f2e8f533bfd9f77675d1e2(MainActivity/WebView-), direction=DOWN)"
+}

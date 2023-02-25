@@ -1,0 +1,50 @@
+{
+  "tag": "2023-02-25_140847",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.bhanguz.Paypenny",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          455,
+          621
+        ],
+        [
+          999,
+          757
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Mobile Number",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 21,
+      "temp_id": 26,
+      "size": "544*136",
+      "signature": "[class]android.widget.EditText[resource_id]None[text]Mobile Number[enabled,,]",
+      "view_str": "490fca3dd99d420921990b67a9f60ee0",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]None"
+    },
+    "text": "HelloWorld"
+  },
+  "start_state": "3362e48ad4b33fa07130aae8793edf7a",
+  "stop_state": "1dcdb148e34d4fb7dcd536df92d8a2ba",
+  "event_str": "SetTextEvent(state=3362e48ad4b33fa07130aae8793edf7a, view=490fca3dd99d420921990b67a9f60ee0(MainActivity/EditText-Mobile Num), text=HelloWorld)"
+}
